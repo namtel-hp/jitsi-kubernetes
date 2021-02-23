@@ -524,9 +524,9 @@ data:
         // the user region as seen by the server.
         // ## << update this >>
         deploymentInfo: {
-            shard: "shard0",
-            region: "sfo-2",
-            userRegion: "sfo-2"
+            shard: "meet",
+            region: "asia-southeast1-a",
+            userRegion: "asia-southeast1-a"
         },
 
         // Decides whether the start/stop recording audio notifications should play on record.
