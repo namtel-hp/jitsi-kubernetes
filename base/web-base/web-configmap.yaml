@@ -40,7 +40,7 @@ data:
         DEFAULT_REMOTE_DISPLAY_NAME: 'Gast',
         DEFAULT_LOCAL_DISPLAY_NAME: 'Ich',
         SHOW_JITSI_WATERMARK: false,
-        JITSI_WATERMARK_LINK: 'https://jitsi.meet',
+        JITSI_WATERMARK_LINK: 'https://meet.saza.vn',
 
         // if watermark is disabled by default, it can be shown only for guests
         SHOW_WATERMARK_FOR_GUESTS: false,
@@ -51,9 +51,9 @@ data:
         GENERATE_ROOMNAMES_ON_WELCOME_PAGE: true,
         DISPLAY_WELCOME_PAGE_CONTENT: true,
         DISPLAY_WELCOME_PAGE_TOOLBAR_ADDITIONAL_CONTENT: false,
-        APP_NAME: 'Jitsi Meet',
-        NATIVE_APP_NAME: 'Jitsi Meet',
-        PROVIDER_NAME: 'Jitsi',
+        APP_NAME: 'Meet',
+        NATIVE_APP_NAME: 'Meet',
+        PROVIDER_NAME: 'SAZA',
         LANG_DETECTION: true, // Allow i18n to detect the system language
         INVITATION_POWERED_BY: true,
 
@@ -152,7 +152,7 @@ data:
          * If indicated some of the error dialogs may point to the support URL for
          * help.
          */
-        SUPPORT_URL: 'https://streamchatline.com/',
+        SUPPORT_URL: 'https://meet.saza.vn/',
 
         /**
          * Whether the connection indicator icon should hide itself based on
