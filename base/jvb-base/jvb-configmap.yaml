@@ -50,7 +50,7 @@ data:
   config: |
     # Jitsi Videobridge settings
     # sets the XMPP domain (default: none)
-    JVB_HOSTNAME=shard0.yourdomain.com  
+    JVB_HOSTNAME=meet.saza.vn  
     ## << update this >>
 
     # sets the hostname of the XMPP server (default: domain if set, localhost otherwise)
