@@ -70,7 +70,7 @@ spec:
             - name: JVB_BREWERY_MUC
               value: jvbbrewery
             - name: OCTO_REGION
-              value: sfo-2 # << update this >>
+              value: asia-southeast1-a # << update this >>
       volumes:
       - name: jvb-config
         configMap:
