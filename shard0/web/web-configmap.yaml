@@ -524,7 +524,7 @@ data:
         // the user region as seen by the server.
         // ## << update this >>
         deploymentInfo: {
-            shard: "meet",
+            shard: "shard0",
             region: "asia-southeast1-a",
             userRegion: "asia-southeast1-a"
         },
