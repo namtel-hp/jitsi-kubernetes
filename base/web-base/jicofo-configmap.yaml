@@ -11,5 +11,5 @@ data:
     org.jitsi.jicofo.BRIDGE_MUC=JvbBrewery@internal-muc.meet.jitsi
     org.jitsi.jicofo.auth.URL=XMPP:meet.jitsi
     org.jitsi.jicofo.auth.DISABLE_AUTOLOGIN=true
-    org.jitsi.jicofo.jibri.BREWERY=JibriBrewery@internal.auth.meet.saza.vn
+    org.jitsi.jicofo.jibri.BREWERY=JibriBrewery@internal.auth.meet.jitsi
     org.jitsi.jicofo.jibri.PENDING_TIMEOUT=90
