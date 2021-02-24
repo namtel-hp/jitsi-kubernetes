@@ -7,5 +7,9 @@ data:
   # custom footer that references Schul Cloud imprint and data privacy protection
   sip-communicator.properties: |
     org.jitsi.jicofo.ALWAYS_TRUST_MODE_ENABLED=true
-    org.jitsi.jicofo.BRIDGE_MUC=jvbbrewery@internal-muc.meet.jitsi
     org.jitsi.jicofo.BridgeSelector.BRIDGE_SELECTION_STRATEGY=RegionBasedBridgeSelectionStrategy
+    org.jitsi.jicofo.BRIDGE_MUC=JvbBrewery@internal.auth.meet.saza.vn
+    org.jitsi.jicofo.auth.URL=XMPP:meet.saza.vn
+    org.jitsi.jicofo.auth.DISABLE_AUTOLOGIN=true
+    org.jitsi.jicofo.jibri.BREWERY=JibriBrewery@internal.auth.meet.saza.vn
+    org.jitsi.jicofo.jibri.PENDING_TIMEOUT=90
