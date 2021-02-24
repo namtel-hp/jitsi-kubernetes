@@ -43,10 +43,10 @@ data:
         echo "org.ice4j.ice.harvest.STUN_MAPPING_HARVESTER_ADDRESSES=meet-jit-si-turnrelay.jitsi.net:443" >> /defaults/sip-communicator.properties
         echo "org.jitsi.videobridge.ENABLE_STATISTICS=true" >> /defaults/sip-communicator.properties
         echo "org.jitsi.videobridge.STATISTICS_TRANSPORT=muc,colibri,rest" >> /defaults/sip-communicator.properties
-        echo "org.jitsi.videobridge.xmpp.user.shard.DOMAIN=auth.meet.saza.vn" >> /defaults/sip-communicator.properties
+        echo "org.jitsi.videobridge.xmpp.user.shard.DOMAIN=auth.meet.jitsi" >> /defaults/sip-communicator.properties
         echo "org.jitsi.videobridge.xmpp.user.shard.USERNAME=jvb" >> /defaults/sip-communicator.properties
         echo "org.jitsi.videobridge.xmpp.user.shard.PASSWORD=namtel123" >> /defaults/sip-communicator.properties
-        echo "org.jitsi.videobridge.xmpp.user.shard.MUC_JIDS=JvbBrewery@internal.auth.meet.saza.vn" >> /defaults/sip-communicator.properties
+        echo "org.jitsi.videobridge.xmpp.user.shard.MUC_JIDS=JvbBrewery@internal.auth.meet.jitsi" >> /defaults/sip-communicator.properties
         echo "org.jitsi.videobridge.xmpp.user.shard.DISABLE_CERTIFICATE_VERIFICATION=true" >> /defaults/sip-communicator.properties
 
         tpl /defaults/sip-communicator.properties > /config/sip-communicator.properties
