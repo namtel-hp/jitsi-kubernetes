@@ -38,6 +38,16 @@ data:
         echo "org.jitsi.videobridge.octo.PUBLIC_ADDRESS=$JVB_PUBLIC_IP" >> /defaults/sip-communicator.properties
         echo "org.jitsi.videobridge.octo.BIND_PORT=$OCTO_PULIC_BIND_PORT" >> /defaults/sip-communicator.properties
         echo "org.jitsi.videobridge.REGION={{ .Env.OCTO_REGION }}" >> /defaults/sip-communicator.properties
+        
+        echo "org.ice4j.ice.harvest.DISABLE_AWS_HARVESTER=true" >> /defaults/sip-communicator.properties
+        echo "org.ice4j.ice.harvest.STUN_MAPPING_HARVESTER_ADDRESSES=meet-jit-si-turnrelay.jitsi.net:443" >> /defaults/sip-communicator.properties
+        echo "org.jitsi.videobridge.ENABLE_STATISTICS=true" >> /defaults/sip-communicator.properties
+        echo "org.jitsi.videobridge.STATISTICS_TRANSPORT=muc,colibri,rest" >> /defaults/sip-communicator.properties
+        echo "org.jitsi.videobridge.xmpp.user.shard.DOMAIN=auth.meet.saza.vn" >> /defaults/sip-communicator.properties
+        echo "org.jitsi.videobridge.xmpp.user.shard.USERNAME=jvb" >> /defaults/sip-communicator.properties
+        echo "org.jitsi.videobridge.xmpp.user.shard.PASSWORD=namtel123" >> /defaults/sip-communicator.properties
+        echo "org.jitsi.videobridge.xmpp.user.shard.MUC_JIDS=JvbBrewery@internal.auth.meet.saza.vn" >> /defaults/sip-communicator.properties
+        echo "org.jitsi.videobridge.xmpp.user.shard.DISABLE_CERTIFICATE_VERIFICATION=true" >> /defaults/sip-communicator.properties
 
         tpl /defaults/sip-communicator.properties > /config/sip-communicator.properties
     fi
