@@ -70,7 +70,7 @@ data:
     JVB_PORT=5347
 
     # sets the shared secret used to authenticate to the XMPP server
-    JVB_SECRET=sSfsesae
+    JVB_SECRET=namtel123
 
     # extra options to pass to the JVB daemon
     JVB_OPTS="--apis=rest,xmpp"
